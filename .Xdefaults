@@ -1,4 +1,16 @@
-xterm*faceName: Liberation Mono:size=10:antialias=true
+xterm*faceName: Liberation Sans Mono:size=10
 XTerm*metaSendsEscape: true
 XTerm*locale: true
-Xterm*saveLines: 4096
+Xterm*saveLines: 8192
+XTerm*scaleHeight: 1
+XTerm*Foreground: White
+XTerm*Background: Black
+
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.dpi: 96
+Xft.rgba: rgb
