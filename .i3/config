@@ -156,6 +156,7 @@ hide_edge_borders both
 bindsym $mod+F11 exec "i3lock -ud -c 000000"
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5-
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5+
+bindsym Print exec "scrot ~/Downloads/%s.png"
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad
